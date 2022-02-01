@@ -21,8 +21,8 @@ We use many different libraries.
 Always starts with setting up.
 ```python
   dataset = pd.read_csv('50_Startups.csv')
-  X = dataset.iloc[:, :-1].values // X will always DV(depdent variable)
-  y = dataset.iloc[:, -1].values // y has indpdent variable
+  X = dataset.iloc[:, :-1].values // X will always DV(dependent variable)
+  y = dataset.iloc[:, -1].values // y will always IDV (independent variable)
 ```
 
 ## Machine learning model
