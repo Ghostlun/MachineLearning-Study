@@ -12,14 +12,18 @@ example: Netflix, music, youtube
 
 ## Before start coding:
 We use many different libraries.
+```python
   import pandas as pd
   import numpy as np
   import matplotlib.pyplot as plt
+ ```
   
 Always starts with setting up.
+```python
   dataset = pd.read_csv('50_Startups.csv')
   X = dataset.iloc[:, :-1].values // X will always DV(depdent variable)
   y = dataset.iloc[:, -1].values // y has indpdent variable
+```
 
 ## Machine learning model
 ### Regression
