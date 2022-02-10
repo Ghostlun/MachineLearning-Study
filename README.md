@@ -32,22 +32,22 @@ If the dependent variable and independent variable has a cautions relationship, 
 ## Type of Regression Model
 
 #### Simple Linear Regression
-Pros - It can work any size of datasets, also it gives information about the relevence of features
+Pros - It can work any size of datasets, also it gives information about the relevence of features <br/>
 Cons - It is Linear regression Assumption. If it has more than dependent varaible, It is not accurate
 
 #### Polynomial Linear Regression
-Pros - It can work any size of datasets, It works well in non-linear problems
+Pros - It can work any size of datasets, It works well in non-linear problems <br/>
 Cons - It need to choose right polynomial degreee for a good prediction
 
 #### Support Vector Regression
-Pros - It is easily adaptable. It works very well on non-linear problems, not biased by outfilters
+Pros - It is easily adaptable. It works very well on non-linear problems, not biased by outfilters <br/>
 Cons - It is compulsory to apply feature scaling
 
 #### Decision Tree Regression
-Pros - It doesn't need for feature scaling. It work on both linear / non-linear problem
+Pros - It doesn't need for feature scaling. It work on both linear / non-linear problem <br/>
 Cons - It has poor results to small datasets overfitting can easily occur
 
 #### Random Forest Regression
-Pros - It is powerful and accurate, has good performance on many problems
+Pros - It is powerful and accurate, has good performance on many problems <br/>
 Cons - It is overfitting can easily occur, need to choose of trees
  
