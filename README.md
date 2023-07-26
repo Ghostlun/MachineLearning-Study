@@ -50,4 +50,9 @@ Cons - It has poor results to small datasets overfitting can easily occur
 #### Random Forest Regression
 Pros - It is powerful and accurate, has good performance on many problems <br/>
 Cons - It is overfitting can easily occur, need to choose of trees
+
+
+# What If we can apply the stock market graph into a machine learning model?
+
+
  
