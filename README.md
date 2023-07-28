@@ -53,6 +53,7 @@ Cons - It is overfitting can easily occur, need to choose of trees
 
 
 # What If we can apply the stock market graph into a machine learning model?
-
+Plans gets stock API first,
+Display data in differen
 
  
