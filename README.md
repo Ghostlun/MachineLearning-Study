@@ -61,7 +61,9 @@ Display data in differen
 
 
 #Deep learning: 
-
+Deep Model : A netowrk with two or more hidden layer is considered
+Depth is important
+strscture model to reprsent an inheretnly composia
 Learning Rate:
 Normalization
 Saddle point
