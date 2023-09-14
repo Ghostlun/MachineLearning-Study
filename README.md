@@ -56,4 +56,14 @@ Cons - It is overfitting can easily occur, need to choose of trees
 Plans gets stock API first,
 Display data in differen
 
- 
+
+
+
+
+#Deep learning: 
+
+Learning Rate:
+Normalization
+Saddle point
+Velocity
+
