@@ -57,15 +57,54 @@ Plans gets stock API first,
 Display data in differen
 
 
-
-
-
-#Deep learning: 
+# Deep learning: 
 Deep Model : A netowrk with two or more hidden layer is considered
 Depth is important
 strscture model to reprsent an inheretnly composia
-Learning Rate:
-Normalization
-Saddle point
-Velocity
 
+
+# Coding test
+1. Two Sum
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+
+ My answer
+ ```
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        print(nums)
+        result = target
+        for first_index in range (0, len(nums)):
+            first_n = nums[first_index]
+            print(first_n)
+            for second_index in range(first_index + 1, len(nums)):
+                second_n = nums[second_index]
+                print(second_n)
+                if first_n + second_n == target:
+                    return [first_index, second_index]
+        return []
+```
+Another Approach
+```
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        
+        a=0
+        for i in range(len(nums)):
+            p = target-nums[i]
+            if p in nums:
+                a=nums.index(p)
+                if a==i:
+                    continue
+                break
+        return i,a
+```
